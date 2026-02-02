@@ -1,5 +1,5 @@
 // Automatic Pilot Script for Monad Pulse
-const CONTRACT_ADDRESS = "0x860...db3fd"; // Your deployed contract address
+const CONTRACT_ADDRESS = "0x860368940C29f939e09968478441991A570db3fd";
 
 async function main() {
     console.log("🤖 Initializing Monad Pulse AI Agent...");
