@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 /**
  * @title MonadPulse
- * @dev Vault intelligent pour la gestion de liquidité par IA sur Monad
+ * @dev Intelligent Vault for AI-driven liquidity management on Monad
  */
 contract MonadPulse {
     address public owner;
@@ -17,22 +17,22 @@ contract MonadPulse {
     }
 
     modifier onlyOwner() {
-        require(msg.sender == owner, "Seul le proprietaire peut faire ca");
+        require(msg.sender == owner, "Caller is not the owner");
         _;
     }
 
-    // Définit l'adresse du script IA qui pourra envoyer des signaux
+    // Set the AI agent address authorized to trigger strategies
     function setAiAgent(address _aiAgent) external onlyOwner {
         aiAgent = _aiAgent;
     }
 
-    // Fonction que l'IA appellera pour simuler une action de trading haute frequence
+    // Function called by the AI to simulate high-frequency trading actions
     function triggerPulse(string calldata _strategy) external {
-        require(msg.sender == owner || msg.sender == aiAgent, "Acces refuse");
+        require(msg.sender == owner || msg.sender == aiAgent, "Access denied");
         emit StrategyExecuted(_strategy, block.timestamp);
     }
 
-    // Permet de retirer les MON accumules (les profits !)
+    // Withdraw accumulated MON (profits!)
     function withdraw() external onlyOwner {
         payable(owner).transfer(address(this).balance);
     }
