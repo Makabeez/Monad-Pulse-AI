@@ -1,19 +1,19 @@
 # 🧠 Monad Pulse v1.0
 
-**Monad Pulse** est un agent d'IA autonome conçu pour la gestion de liquidité à haute fréquence, optimisé spécifiquement pour l'écosystème **Monad**.
+**Monad Pulse** is an autonomous AI agent designed for high-frequency liquidity management, specifically optimized for the **Monad** ecosystem.
 
-## 🚀 Vision du Projet
-L'objectif est de démontrer comment les agents d'IA peuvent exploiter la **parallélisation** et le débit ultra-élevé de Monad pour effectuer des transactions à grande échelle sans intervention humaine.
+## 🚀 Project Vision
+Our goal is to demonstrate how AI agents can leverage Monad's **parallel execution** and ultra-high throughput to perform large-scale transactions with zero human intervention.
 
-## 🛠 Architecture Technique
-- **Smart Contract (Solidity) :** Un coffre-fort intelligent gérant les autorisations de l'agent et l'exécution des stratégies.
-- **AI Agent Engine (Ethers.js) :** Une boucle de décision autonome simulant des analyses de marché et déclenchant des signaux on-chain toutes les 30s.
-- **Frontend Dashboard :** Une interface en temps réel pour monitorer l'état de l'agent et les flux de transactions.
+## 🛠 Technical Architecture
+- **Smart Contract (Solidity):** An intelligent vault managing agent authorizations and strategy execution.
+- **AI Agent Engine (Ethers.js):** An autonomous decision loop simulating market analysis and triggering on-chain signals every 30s.
+- **Frontend Dashboard:** A real-time interface to monitor agent status and transaction flows.
 
-## 📊 Preuve d'Exécution (Testnet)
-- **Burner Wallet :** `0x1BcE0D52081B68B81e84193b5644AF8B9A552d19`
-- **Contract Address :** `0x860...db3fd`
-- **Network :** Monad Testnet (Chain ID 10143)
+## 📊 Execution Proof (Testnet)
+- **Burner Wallet:** `0x1BcE0D52081B68B81e84193b5644AF8B9A552d19`
+- **Contract Address:** `0x860368940C29f939e09968478441991A570db3fd`
+- **Network:** Monad Testnet (Chain ID 10143)
 
-## 🎥 Démo Vidéo
-[Lien vers la vidéo Loom](https://www.loom.com/share/0cd1598f45b9403aa19e90c7d5a29755)
+## 🎥 Video Demo
+[Watch the Loom Demo](https://www.loom.com/share/0cd1598f45b9403aa19e90c7d5a29755)
