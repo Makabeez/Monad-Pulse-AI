@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Monad Pulse | AI Dashboard</title>
+    <style>
+        body { background: #0a0a0a; color: #a855f7; font-family: 'Courier New', monospace; text-align: center; }
+        .container { border: 2px solid #a855f7; display: inline-block; padding: 20px; margin-top: 50px; border-radius: 10px; box-shadow: 0 0 20px #a855f7; }
+        .status { color: #22c55e; font-weight: bold; animation: blink 1s infinite; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+        .log-box { background: #1a1a1a; padding: 10px; margin-top: 20px; text-align: left; height: 150px; overflow-y: auto; font-size: 12px; border: 1px solid #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MONAD PULSE v1.0</h1>
+        <p>Agent Status: <span class="status">● AI ENGINE LIVE</span></p>
+        <hr border-color="#333">
+        <p>Wallet: 0x1BcE0D52081B68B81e84193b5644AF8B9A552d19</p>
+        <p>Contract: 0x860...db3fd</p>
+        <div class="log-box" id="logs">
+            [SYSTEM] Initializing connection to Monad Testnet (Chain 10143)...<br>
+            [IA] Market scanning active...<br>
+            [SUCCESS] Strategy "HighFreq_Arb_v1" triggered on block 10274925...
+        </div>
+    </div>
+</body>
+</html>
