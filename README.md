@@ -15,5 +15,13 @@ Our goal is to demonstrate how AI agents can leverage Monad's **parallel executi
 - **Contract Address:** `0x860368940C29f939e09968478441991A570db3fd`
 - **Network:** Monad Testnet (Chain ID 10143)
 
+## 💡 Innovation & Originality
+* **Custom AI Loop:** The core logic in `scripts/agent_pulse.js` is original work designed to test Monad’s parallel transaction limits.
+* **Architecture:** Custom implementation of the `triggerPulse` function specifically to leverage Monad's sub-second finality.
+
+## 🗺️ Future Roadmap
+1. **Agent-to-Agent (A2A) Integration:** Enabling our sentinel to receive signals from external AI Risk Management agents.
+2. **Parallel Scaling:** Expanding the agent's capacity to manage multiple pools in parallel.
+
 ## 🎥 Video Demo
 [Watch the Loom Demo](https://www.loom.com/share/0cd1598f45b9403aa19e90c7d5a29755)
