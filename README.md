@@ -28,4 +28,4 @@ Our goal is to demonstrate how AI agents can leverage Monad's **parallel executi
 2. **Parallel Scaling:** Expanding the agent's capacity to manage multiple pools in parallel.
 
 ## 🎥 Video Demo
-[Watch the Youtube video Demo](https://https://youtu.be/JvPDZQXXNqQ)
+[Watch the Youtube video Demo](https://youtu.be/JvPDZQXXNqQ)
