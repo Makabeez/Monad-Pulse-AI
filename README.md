@@ -2,6 +2,11 @@
 
 **Monad Pulse** is an autonomous AI agent designed for high-frequency liquidity management, specifically optimized for the **Monad** ecosystem.
 
+## 🏁 Submission Eligibility Check
+- **Verified Contract (Monad Testnet):** `0x860368940C29f939e09968478441991A570db3fd`
+- **Documentation:** Full transparency with `PRD.md` and `AGENTS.md`
+- **Proof of Work:** Real-time on-chain execution loop (Block 10274434)
+
 ## 🚀 Project Vision
 Our goal is to demonstrate how AI agents can leverage Monad's **parallel execution** and ultra-high throughput to perform large-scale transactions with zero human intervention.
 
@@ -12,12 +17,11 @@ Our goal is to demonstrate how AI agents can leverage Monad's **parallel executi
 
 ## 📊 Execution Proof (Testnet)
 - **Burner Wallet:** `0x1BcE0D52081B68B81e84193b5644AF8B9A552d19`
-- **Contract Address:** `0x860368940C29f939e09968478441991A570db3fd`
 - **Network:** Monad Testnet (Chain ID 10143)
 
 ## 💡 Innovation & Originality
-* **Custom AI Loop:** The core logic in `scripts/agent_pulse.js` is original work designed to test Monad’s parallel transaction limits.
-* **Architecture:** Custom implementation of the `triggerPulse` function specifically to leverage Monad's sub-second finality.
+- **Custom AI Loop:** The core logic in `scripts/agent_pulse.js` is original work designed to test Monad’s parallel transaction limits.
+- **Architecture:** Custom implementation of the `triggerPulse` function specifically to leverage Monad's sub-second finality.
 
 ## 🗺️ Future Roadmap
 1. **Agent-to-Agent (A2A) Integration:** Enabling our sentinel to receive signals from external AI Risk Management agents.
